@@ -1,12 +1,12 @@
 # treeview
 加载必需的文件：
-<code>
+```html
 <link type="text/css" rel="stylesheet" href="./treeview.css">
 <script type="text/javascript" src="./jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="./treeview.js"></script>
-</code>
+```
 HTML格式：
-<pre>
+```html
 <div class="tree-folders">
     <span>父目录</span>
     <span class="no-child">父目录-无子目录</span>
@@ -23,8 +23,8 @@ HTML格式：
         <span class="no-child">多级目录-子目录-子目录</span>
     </div>
 </div>
-</pre>
+```
 引用：
-<pre>
+```javascript
 $('.container').treeView({defaultOpen:false});
-</pre>
+```
