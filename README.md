@@ -1,10 +1,10 @@
 # treeview
 加载必需的文件：
-<pre>
+<code>
 <link type="text/css" rel="stylesheet" href="./treeview.css">
 <script type="text/javascript" src="./jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="./treeview.js"></script>
-</pre>
+</code>
 HTML格式：
 <pre>
 <div class="tree-folders">
