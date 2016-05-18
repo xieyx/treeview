@@ -1,11 +1,13 @@
 # treeview
-加载必需的文件：
+### demo
+  [Demo](http://git.coolhub.cn/treeview)<br />
+### 加载必需的文件：
 ```html
 <link type="text/css" rel="stylesheet" href="./treeview.css">
 <script type="text/javascript" src="./jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="./treeview.js"></script>
 ```
-HTML格式：
+### HTML格式：
 ```html
 <div class="tree-folders">
     <span>父目录</span>
@@ -24,7 +26,7 @@ HTML格式：
     </div>
 </div>
 ```
-引用：
+### 引用：
 ```javascript
 $('.container').treeView({defaultOpen:false});
 ```
